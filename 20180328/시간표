@@ -1,0 +1,42 @@
+<!DOCTYPE html> <!-- time go home.html-->
+<html lang="ko">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport"content="width=device-width, initial-scale=1"/>
+<style>
+ .subject1{color:white;background-color:skyblue; }
+ .subject2{background-color:yellow;}
+ .subject3{background-color:Lavender;}
+ .subject4{color:white;background-color:aqua;}
+ .subject5{color:red;background-color:pink;}
+ .subject6{color:white;background-color:DeepSkyBlue;}
+ .subject7{color:white;background-color:lightgreen;}
+ .subject8{color:white;background-color:gold;}
+ .subject9{color:white;background-color:silver;}
+ table,th,td{border:1px solid black; border-collapse:collapse;} 
+ table{width:100%;} td, th
+  td {vertical-align:center;}
+ td {text-align:center;}
+ 
+</style><!-- border-collapse:collapse 단선으로,반대는 seperate -->
+<title>HTML5테이블실습</title></head>
+<body>
+<table>
+<h1 id="bList">시간표</h1>
+<thead>
+<tr><th>시간</th><th>월</th> <th>화</th> <th>수</th> <th>목</th> <th>금</th></tr>
+</thead>
+<tbody>
+<tr> <td>1교시</td> <td></td><td rowspan="2"class="subject7">영어회화</td><td></td><td></td><td rowspan="9"class="subject5">공강</td></tr>
+<tr> <td>2교시</td> <td></td><td></td><td></td><td></td>
+<tr> <td>3교시</td> <td rowspan="2"class="subject1">디지털 논리회로</td> <td> </td><td rowspan="2"class="subject4">자료구조 및 실습</td><td rowspan="2"class="subject4">자료구조 및 실습</td> </tr>
+<tr> <td>4교시</td>  </tr>
+<tr> <td>5교시</td> <td></td> <td class="subject1">디지털 논리회로</td><td></td><td rowspan="2"class="subject3">인터넷 프로그래밍</td></tr>
+<tr> <td>6교시</td> <td rowspan="4"class="subject9">C++프로그래밍</td> <td></td><td></td>
+<tr> <td>7교시</td> <td rowspan="3"class="subject2">예 문 융 이</td> <td> </td> <td rowspan="3"class="subject8"> 캠퍼스 멘토링</td></tr>
+<tr> <td>8교시</td> <td rowspan="2"class="subject3">인터넷 프로그래밍</td> </tr>
+<tr> <td>9교시</td> <td> </td><td></td></tr>
+</tbody>
+</table>
+</body>
+</html>
