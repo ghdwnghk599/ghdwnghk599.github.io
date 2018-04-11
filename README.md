@@ -1,1 +1,0 @@
-# ghdwnghk599.github.io
