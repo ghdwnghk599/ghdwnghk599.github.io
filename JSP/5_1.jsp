@@ -15,12 +15,17 @@
  <h4>과제1 </h4>
 <p>소스</p> 
 <picture>
- <source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/1_html.PNG"/> 
+ <source media="(min-width: 768px)" srcset="https:/ghdwnghk599.github.io/JSP/3/5-1.JPG"/> 
 <img src="https://ghdwnghk599.github.io/JSP/3/1_html.PNG" alt="소스코드" style="width:auto;"/>
  </picture> 
   
   <picture>
- <source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/1.jsp.PNG"/> 
+ <source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/5-1(1).JPG"/> 
+<img src="https://ghdwnghk599.github.io/JSP/3/1.jsp.PNG" alt="소스코드" style="width:auto;"/>
+ </picture> 
+  
+   <picture>
+ <source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/5-1(2).JPG"/> 
 <img src="https://ghdwnghk599.github.io/JSP/3/1.jsp.PNG" alt="소스코드" style="width:auto;"/>
  </picture> 
   
@@ -30,11 +35,7 @@
   
   
   <picture> 
-<source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/1r_html.PNG "> 
+<source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/5-1(3).JPG "> 
 <img src="https://ghdwnghk599.github.io/JSP/3/1r_html.PNG" alt="결과화면" style="width:auto;"/> 
-</picture> 
-<picture> 
-<source media="(min-width: 768px)" srcset="https://ghdwnghk599.github.io/JSP/3/1r_jsp.PNG "> 
-<img src="https://ghdwnghk599.github.io/JSP/3/1r_jsp.PNG" alt="결과화면" style="width:auto;"/> 
 </picture> 
   </section></body></html>
